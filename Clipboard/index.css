@@ -1,0 +1,488 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree";
+  
+}
+main{
+    max-width: 100%;
+    height: 100vh;
+
+}
+.content {
+    height: 15em;
+    background: url(images/bg-header-desktop.png) no-repeat;
+    background-size: cover;
+}
+
+.cotenu{
+    width: 100%;
+    height: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cotenu img{
+    margin-top: 40px;
+}
+.Mhd{
+    text-align: center;
+}
+#discontent{
+   text-align: center;
+    color: #B7BCBD;
+}
+
+.week{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 10px;
+}
+.week .iOS {
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 15em;
+    height: 50px;
+    letter-spacing: 1px;
+    background: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.week .mac{
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 15em;
+    height: 50px;
+    letter-spacing: 1px;
+    background: hsl(233, 100%, 69%);
+    cursor: pointer;
+    
+
+}
+.week .iOS:hover {
+    box-shadow: 0 4px 8px hsl(171, 66%, 44%, 0.6);
+}
+.week .mac:hover {
+    box-shadow: 0 4px 8px hsl(223, 100%, 69%, 0.6);
+}
+
+.Moha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+#sass{
+    text-align: center;
+    color: #B7BCBD;
+}
+
+.textimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+    position: relative;
+    margin: auto;
+    
+}
+.stock img{
+    position: relative;
+    margin-right: 30px;
+    flex-direction: column;
+}
+.textimage, img, .stock{
+    display: flex;
+   
+    justify-content: center;
+    align-items:center ;
+}
+.trefe p{
+    color: #B7BCBD
+}
+.ligne{
+text-align: center;
+}
+.cote{
+text-align: center;
+height: 100px;
+color: #B7BCBD;
+
+}
+section{
+    max-width: 100%;
+    margin: auto;
+}
+.noble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.somme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B7BCBD;
+
+}
+.positive{
+    text-align: center;
+   
+
+}
+.storm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10em;
+    height: 20em;
+
+}
+.storm img{
+    margin: auto;
+}
+.nomons p{
+   
+    color: #B7BCBD;
+}
+.moi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    margin-top: 10em;
+}
+.pont{
+    margin-top: 20em;
+    text-align: center;
+
+}
+.pont p{
+    color: #B7BCBD;
+
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 15px;
+
+
+}
+
+.row p{
+    cursor: pointer;
+    color: #B7BCBD;
+}
+.row p:hover{
+    color:  hsl(171, 66%, 44%);
+}
+.row i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+   color: #555657;
+   font-size: 30px;
+   text-align: center;
+   color: #313030;
+   margin: 0px 10px;
+   line-height: 50px;
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   -webkit-transition: all .6s ease;
+   -moz-transition: all .6s ease;
+   -ms-transition: all .6s ease;
+   -o-transition: all .6s ease;
+   transition: all .6s ease;
+   
+
+}
+.row i:hover{
+    color: hsl(171, 66%, 44%);
+    border-radius: 50%;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+@media screen and (max-width:320px) {
+    main{
+        width: 100% !important;
+        margin: auto;
+    
+    }
+    .stock img{
+        width: 16em;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .noble img{
+        width: 16em;
+        margin: auto;
+    }
+    .textimage, img, .stock{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        max-width: 100%;
+        margin: auto;
+    }
+    .moi img{
+        width: 100%;
+    }
+    .moi{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+    .storm{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .storm .nomons{
+        height: 1rem;
+
+    }
+    div .paragraphe{
+        text-align: center;
+
+    }
+    .pont{
+        margin-top: 5em;
+        text-align: center;
+    
+    }
+    .week{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer img{
+        width: 30px;
+    }
+    .row i{
+        font-size: 18px;
+    }
+    .row p{
+        width: 8px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f8f8f8;
+        padding: 0 50px 0;
+        
+    }  
+}
+
+
+@media screen and (max-width:375px) {
+    main{
+        width: 100% !important;
+        margin: auto;
+    
+    }
+    .stock img{
+        width: 16em;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .noble img{
+        width: 16em;
+        margin: auto;
+    }
+    .textimage, img, .stock{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        max-width: 100%;
+        margin: auto;
+    }
+    .moi img{
+        width: 100%;
+    }
+    .moi{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+    .storm{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .storm .nomons{
+        height: 1rem;
+
+    }
+    div .paragraphe{
+        text-align: center;
+
+    }
+    .pont{
+        margin-top: 5em;
+        text-align: center;
+    
+    }
+    .week{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer img{
+        width: 50px;
+    }
+    .row i{
+        width: 8px;
+    }
+    .row p{
+        font-size: 12px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f8f8f8;
+        padding: 0 50px 0;
+        
+    }  
+}
+@media screen and (max-width:425px) {
+    main{
+        width: 100% !important;
+        margin: auto;
+    }
+    .textimage, img, .stock{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .moi img{
+        width: 100%;
+    }
+    .moi{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        ;
+    }
+    .storm{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .storm .nomons{
+        height: 1rem;
+
+    }
+    .week{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer img{
+        width: 50px;
+    }
+    .row p{
+        font-size: 12px;
+    }
+    .row i{
+        width: 12px;
+    }
+
+
+}
+@media screen and (max-width:768px) {
+    main{
+        width: 100% !important;
+        margin: auto;
+    }
+    .moi img{
+        width: 100%;
+        margin-top: 10rem;
+
+    }
+    .moi{
+        margin: auto;
+        width: 90px;
+    }
+    .stock img{
+        width: 20em;
+        margin: auto;
+    }
+    .storm .nomons{
+        height: 1em;
+
+    }
+    .div .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f8f8f8;
+        padding:50px ;
+
+    }
+}
+@media screen and (max-width:1024px){
+    main{
+        width: 100% !important;
+        margin: auto;
+    }
+    .stock img{
+        width: 18em;
+        margin: auto;
+    }
+    .noble img{
+        width: 20em;
+        margin: auto;
+    }
+    .moi{
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f8f8f8;
+        padding:  50px 0;
+    }
+
+}
+
+
+
+
+
+
+
+
